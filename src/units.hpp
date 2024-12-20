@@ -17,7 +17,7 @@ namespace idfx {
 class Units {
  public:
   void Init(Input &input);
-  
+
 
   const real u{1.6605390666e-24};                   // Atomic mass unit (g)
   const real m_p{1.67262192369e-24};                // Proton mass unit (g)
@@ -77,4 +77,3 @@ class Units {
 };
 } // namespace idfx
 #endif // UNITS_HPP_
-
